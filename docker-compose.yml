@@ -1,6 +1,6 @@
 services:
   plex-request-labeler:
-    build: .
+    image: ghcr.io/jimski427/plex-request-labeler:latest
     restart: unless-stopped
     ports:
       - "5000:5000"
